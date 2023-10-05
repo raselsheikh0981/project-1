@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Itim&family=Jost:wght@200;300;400;500&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&family=Outfit:wght@300;400;500&family=Poppins:wght@200;300;400;500&family=Prompt&family=Salsa&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black !important;
+}
+.container{
+    font-family: 'Croissant One', cursive;
+}
+/* Header- part- start */
+.Header-footer-h2{
+    text-align: center;
+    color: #2EA365;
+   
+}
+.nav-center {
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(4 1 1);
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 12px;
+    transition: all ease .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+button:focus {
+    outline: none;
+    outline: none;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    border: none;
+    background: none;
+    outline: none;
+}
+/* Header- part- end */
+
+/* sec bg- part- start */
+.left img {
+    width: 100%;    
+    height: 600px;
+}
+.left h3 {
+    font-size: 25px;
+    margin-top: 17px;
+    font-weight: 600;
+}
+.right img {
+    width: 100%;
+    height: 600px;
+}
+/* sec bg- part- end */
+
+/* course- section- start */
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+.course-header h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.course-header p {
+    font-size: 13px;
+}
+.course-header i{
+    color: black;
+}
+.course img{
+    width: 100%;;
+}
+.course h5 {
+    font-size: 90%;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* course- section- end */
+
+/* skill- section- start */
+.skill {
+    margin-top: 113px;
+    margin-bottom: 80px;
+}
+.skill h2{
+    margin: 15px 0;
+}
+.skill-form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-form input {
+    width: 84%;
+    margin-right: 12px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    padding: 6px;
+}
+.skill-form button {
+    width: 15%;
+    outline: none;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 6px;
+}
+.cheack {
+    margin: 12px 0;
+}
+.cheack input {
+    outline: none;
+    margin-right: 5px;
+}
+.cheack label {
+    font-family: fangsong;
+    font-size: 13px;
+    color: gray;
+}
+.cheack label a{
+    color: gray !important;
+}
+::placeholder{
+    color: gray;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+/* skill- section- end */
+
+/* More- skill- start */
+.more {
+    margin: 25px 0;
+}
+.more img{
+    width: 100%;
+    transition: ease .3s;
+}
+.more img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 5px 6px gray;
+}
+.more h3 {
+    font-size: 100%;
+    margin-top: 12px;
+    padding: 5px;
+    margin-bottom: 0;
+}
+.more-footer {
+    display: flex;
+}
+.footer-sec i, span {
+    font-size: 10px;
+    color: gray;
+}
+.first-sec{
+    margin-right: 17px;
+}
+.more-btn {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+.more-btn button {
+    border: none;
+    outline: none;
+    font-family: fangsong;
+    font-weight: 600;
+    background-color: green;
+    padding: 3px;
+    width: 12%;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all ease .3s;
+}
+.more-btn button:hover{
+    background-color: #2EA365;
+}
+.more-btn button a{
+    text-decoration: none;
+    color: white !important;
+}
+/* More- skill- end */
+
+/* youtube- part- start */
+
+/* youtube- part- end */
+.youtube-part{
+    margin-bottom: 202px;
+}
+.youtube-part h2{
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.youtube a img {
+    width: 100%;
+}
+.youtube h3 {
+    font-size: 90%;
+    margin-top: 7px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+/* quick-skill- part- start */
+.quick-skill{
+    margin-bottom: 180px;
+}
+.quick-top-part {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #E6F5ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+    padding: 51px;
+}
+.quick-content {
+    text-align: center;
+    margin-top: 18px;
+}
+.quick-content p {
+    margin-bottom: 0;
+    font-size: 76%;
+    color: gray;
+    text-transform: uppercase;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+.quick-content h3 {
+    font-size: 93%;
+    margin-top: 4px;
+    font-family: ui-serif;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+.quick-image-part {
+    margin-top: -1px;
+}
+.quick img{
+    width: 100%;
+}
+/* quick-skill- part- end */
+
+/* footer-start */
+.top-footer{}
+.top-footer p {
+    text-align: center;
+    margin-top: 21px;
+    font-size: 12px;
+    font-family: emoji;
+    text-transform: capitalize;
+}
+.footer h3 {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+.footer-item{}
+.footer-item li {
+    list-style-type: none;
+    transition: all ease .3s;
+}
+.footer-item li a {
+    font-size: 12px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.footer-item li:hover{
+    transform: scale(1.1);
+}
+.footer-form {
+    width: 100%;
+    margin-bottom: 18px;
+}
+.footer-form form {
+    margin-bottom: 12px;
+}
+.footer-form form input {
+    border: none;
+    background-color: #E6F5ED;
+    width: 70%;
+    padding: 5px 16px;
+    outline: none;
+}
+.footer-btn {
+    border: none;
+    background: green;
+    width: 30%;
+    margin-left: -6px;
+    padding: 5px;
+    color: white;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.footer-icon{}
+.footer-icon a {
+    margin: 0 12px;
+    transition: all ease 0.3s;
+    color: #2EA365;
+    
+}
+.footer-icon a i{
+    transition: all ease 0.3s;
+}
+.footer-icon a i:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 5px 4px rgb(131, 130, 130);
+    padding: 5px;
+    border-radius: 12px;
+    color: #00acfc;
+}
+.footer-para {
+    margin-top: 15px;
+}
+.footer-para p {
+    font-size: 12px;
+    font-family: emoji;
+}
+.top-con {
+    display: flex;
+    justify-content: center;
+    margin: 41px 0;
+}
+.top-con a {
+    background-color: green;
+    padding: 9px;
+}
+.top-con a i{
+    color: white;
+}
+/* footer-end */
+
+/* Media quiri */
+
+/* @media   (min-width:550px){
+    .left{
+        font-size: 12px;
+    }
+};  */
+@media (max-width:992px){
+    .form-inline{
+        display: none;
+    }
+    .left img {
+        height: 200px;
+    }
+    .right img {
+        height: 200px;
+    }
+    .left h3{
+        font-size:50%;
+    }
+    .course h5{
+        font-size: 50%;
+    }
+    .skill h2{
+        font-size: 80%;
+    }
+    .skill-form{
+        width: 100%;
+    }
+    .skill-form input {
+        width: 64%;
+    }
+    .skill-form button {
+        width: 35%;
+        font-size: 60%;
+    }
+    .more h3 {
+        font-size: 60%;
+    }
+    .footer-sec i, span {
+        font-size: 45%;
+    }
+    .first-sec{
+        margin-right: 7px;
+    }
+    .more-btn button{
+        width: 40%;
+    }
+    .youtube{
+        margin-bottom: 52px;
+    }
+    .youtube-part {
+        margin-bottom: 40px;
+    }
+    .quick-skill{
+        margin-bottom: 27px;
+    }
+    .quick-top-part{
+        width: 100%;
+    }
+    .quick-content{
+        padding: 0 8px;
+    }
+    .quick-content p {
+        font-size: 46%;
+        margin-bottom: 5px
+    }
+    .quick img{
+        margin-bottom: 35px
+    }
+    .top-footer p{
+        font-size: 46%;
+    }
+    .footer{
+        margin-bottom: 42px
+    }
+};
+@media (max-width:450px){
+    .quick-top-part{
+        background-color: #2EA365;
+    }
+}
